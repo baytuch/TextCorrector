@@ -1,0 +1,121 @@
+/* Программа автоматической корректировки текста */
+
+body{
+     background-color: #EEEEEE;
+     font-family: 'Georgia';
+     font-style: normal;
+     font-size: medium;
+     color: #555555;
+    }
+
+hr{
+   height: 1px;
+   width: 870px;
+   border: none;
+   color: #BBBBBB;
+   background-color: #CFCFCF;
+  }
+
+.main_block{
+            width: 900px;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 10px 10px 10px 10px;
+            border-color: #AAAAAA;
+            padding: 10px;
+           }
+
+.text_main_field_div{
+                     width: 900px;
+                     margin-bottom: 15px;
+                    }
+
+.text_main_field{
+                 display: block;
+                 width: 870px;
+                 height: 480px;
+                 margin-left: auto;
+                 margin-right: auto;
+                 border-style: solid;
+                 border-width: 1px;
+                 border-radius: 5px 5px 5px 5px;
+                 border-color: #CCCCCC;
+                 padding: 5px;
+                 overflow-x: hidden;
+                 overflow-y: auto;
+                 color: #555555;
+                 resize: none;
+                }
+
+.text_main_field:focus{
+                       border-color: #A8A8A8
+                      }
+
+.text_list_field_div{
+                     width: 900px;
+                     margin-top: 15px;
+                    }
+
+.text_list_field{
+                 display: block;
+                 width: 450px;
+                 height: 50px;
+                 float: left;
+                 margin-left: 9px;
+                 border-style: solid;
+                 border-width: 1px;
+                 border-radius: 5px 5px 5px 5px;
+                 border-color: #CCCCCC;
+                 padding: 5px;
+                 overflow-x: hidden;
+                 overflow-y: scroll;
+                 color: #555555;
+                 resize: none;
+                }
+
+.text_list_field:focus{
+                       border-color: #A8A8A8
+                      }
+
+.key_rezult{
+            width: 130px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 15%;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 5px 5px 5px 5px;
+            border-color: #A8A8A8;
+            text-align: center;
+            cursor: pointer;
+            color: #555555;
+           }
+
+.key_rezult:hover{
+                  border-color: #888888;
+                  color: #404040;
+                 }
+
+.key_rezult:active{
+                   margin-top: 22px
+                  }
+
+.parametrs{
+           width: 900px;
+           margin-top: 15px;
+          }
+
+.info{
+      width: 870px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      text-align: center;
+     }      
+                   
+                   
+               
